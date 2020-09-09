@@ -4,9 +4,9 @@ let chalk = require("chalk")
 
 
 
-module.exports = {
+const main = {
  info: chalk.bold.blue('ℹ'),
-	success: chalk.bold.green('✔'),
+	success: chalk.bold.green('✓'),
 	warning: chalk.bold.yellow('⚠'),
 	error: chalk.bold.red('✖'),
 	ask: chalk.bold.magenta("¿?"),
@@ -26,9 +26,13 @@ module.exports = {
 	full_block5: chalk.bold("▄"),
 	full_block6: chalk.bold("▬"),
 	empty_block: chalk.bold("░"),
-        flag: chalk.bold("⚐"),
+	yes: chalk.bold.white("☑"),
+	no: chalk.bold.white("☒"),
+  flag: chalk.bold("⚐"),
 	dead: chalk.bold("☠"),
 	star: chalk.bold("☆")
 }
+
+module.exports = main
 	
 	
