@@ -7,8 +7,8 @@ console.log(symbols.success)
 
 # Symbols
 ```
-success ✔
-error ✖
+**success** ✔
+**error** ✖
 info  ℹ
 warning ⚠
 ask ¿?
