@@ -7,6 +7,8 @@ console.log(symbols.success)
 
 # Symbols
 ```
+ Name              Symbol
+
 success              ✔
 error                ✖
 info                 ℹ
